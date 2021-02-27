@@ -25,4 +25,4 @@ if let token = Messaging.messaging().fcmToken {
 1. Go to the management screen like the Google API console with Firebase console site> Gear> Cloud Messaging.
 2. Copy Server Key Value(Token).
 
-- send_by_cloud_message_serverkey.rb
+- send_by_cloud_messaging_serverkey.rb

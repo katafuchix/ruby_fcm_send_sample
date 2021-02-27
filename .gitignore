@@ -1,0 +1,15 @@
+
+# Created by https://www.gitignore.io/api/osx,rails,ruby,rubymine,linux,vim,emacs,sublimetext,bower,node
+
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+/.bundle
+vendor
+vendor/*
+
+*.pem
+*.p12
+*.p8
+*.json

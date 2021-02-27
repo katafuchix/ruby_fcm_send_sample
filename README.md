@@ -1,7 +1,7 @@
 # ruby_fcm_send_sample
 FireBase Cloud Message Send Samle
 
-## getting FCM Token
+## Getting FCM Token
 - swift
 
 ```
@@ -11,7 +11,7 @@ if let token = Messaging.messaging().fcmToken {
   print(token)
 }
 ```
-## send by Firebase Admin SDK
+## Send by Firebase Admin SDK
 1. Go to the management screen like the Google API console with Firebase console site> Gear> Privileges.
 2. Click Service Account> Create Service Account to create an account
 3. Ignore role selection and OK
@@ -21,7 +21,7 @@ if let token = Messaging.messaging().fcmToken {
 
 - send_by_Firebase_Admin_SDK.rb
 
-## send by Cloud Messaging Server Key
+## Send by Cloud Messaging Server Key
 1. Go to the management screen like the Google API console with Firebase console site> Gear> Cloud Messaging.
 2. Copy Server Key Value(Token).
 

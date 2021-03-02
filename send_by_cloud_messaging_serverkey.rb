@@ -5,7 +5,6 @@ token = "[YOUR DEVICE FCM TOKEN]"
 
 body = {
   message: {
-    token: "[YOUR DEVICE FCM TOKEN]",
     notification: {
       title: 'Push Notification Title',
       body: 'Message from FCM.'

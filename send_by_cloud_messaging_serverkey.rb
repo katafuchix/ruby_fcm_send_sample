@@ -7,7 +7,8 @@ body = {
   message: {
     notification: {
       title: 'Push Notification Title',
-      body: 'Message from FCM.'
+      body: 'Message from FCM.',
+      sound: 'default',
     }
   }
 }
